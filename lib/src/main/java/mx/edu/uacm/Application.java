@@ -27,7 +27,8 @@ public class Application {
 
 		Ninja ninja = (Ninja) contenedor.getBean("ninja");
 
-		log.debug("arma del Ninja: " + ninja.getArma());
+		log.debug("arma del Ninja: " + ninja.getArma());	
+	
 
 
 		
